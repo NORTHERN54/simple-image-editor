@@ -68,3 +68,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Development steps:
+1) Next we add our own packages to the app. We need @toast-ui/react-image-editor , 
+which the React version of the Toast UI Image Editor, Bootstrap and React Bootstrap for styling, 
+React Router for routing, and Download.js for downloading the image to disk.
+
+### 'npm i @toast-ui/react-image-editor bootstrap downloadjs react-bootstrap react-router-dom'
+
+2) First we start with modifying App.js
+3) App.css 
+   .center {
+       text-align: center;
+   } 
+4) Homepage.js
+   Create    
